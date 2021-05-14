@@ -4,7 +4,10 @@ Setup: dp_setup.sql
 
 Demo: dp_demo.sql
 
-**Continuous Loading with Snowpipe**
+
+
+
+H1 **Continuous Loading with Snowpipe**
 
 Snowpipe is server-less service with instant scalability to handle variables volume of data, with per second billing that streams data near-real-time to Snowflake. 
 It can be used in two ways: 
