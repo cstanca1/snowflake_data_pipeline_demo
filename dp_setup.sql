@@ -18,7 +18,7 @@ grant usage on integration snowflake_demo_int to role accountadmin;
 
 create or replace stage snowflake_demo_stage
   storage_integration = YOURSRTORAGEINTEGRATION
-  url = 's3://snowflake.demo/';
+  url = 'YOURS3BUCKET/';
 
 use database snowflake_demo;
 show stages;
